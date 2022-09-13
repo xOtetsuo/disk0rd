@@ -11,13 +11,13 @@
  * @type {import('../../typings').TriggerCommand}
  */
 module.exports = {
-	name: ["your", "trigger", "words", "in", "array"],
+	name: ["marvin", "weed", "smoke", "whos marvin", "do you even do pot?", "who is marvin","fuck marvin", "fuck"],
 
 	execute(message, args) {
 		// Put all your trigger code over here. This code will be executed when any of the element in the "name" array is found in the message content.
 
 		message.channel.send({
-			content: "Set this trigger response from `./triggers/reactions/hello.js`",
+			content: "what did you say?",
 		});
 	},
 };
